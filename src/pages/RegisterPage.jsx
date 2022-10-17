@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom';
 
 
-const RegisterPage = () => {
+const RegisterPage = (props) => {
     return (
         <div className="Auth-form-container">
             <form className="Auth-form" method='POST'>

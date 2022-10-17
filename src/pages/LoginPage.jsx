@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 
 
-const LoginPage = () => {
+const LoginPage = (props) => {
     return (
         <div className="Auth-form-container">
             <form className="Auth-form" method='POST'>
